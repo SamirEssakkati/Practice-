@@ -1,0 +1,124 @@
+html,body{
+    height: 100%;
+    margin:0;
+
+}
+
+:root {
+    --zwartekleur--: #000;
+
+}
+
+body{
+    background-image: url("assets/hout.jpg");
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns:repeat(12,1fr) ;
+}
+nav{
+    display: grid;
+    border: 2px darkred solid;
+    float: right;
+    margin-left: 25px;
+
+
+
+
+
+
+}
+
+
+
+.middle{
+    display: grid;
+    grid-template-columns: repeat(8,  10vw);
+    grid-template-rows: repeat(8, 10vw);
+    grid-row-start: 1;
+    margin: 20px;
+
+
+
+
+}
+
+
+.middle div:nth-child(-n+8):nth-child(even){
+    background-image: url("assets/zwarte-marmer.jpg");
+}
+
+.middle div:nth-child(n+8):nth-child(-n+16):nth-child(odd)
+{
+    background-image: url("assets/zwarte-marmer.jpg");
+}
+.middle div:nth-child(n+17):nth-child(-n+24):nth-child(even)
+{
+    background-image: url("assets/zwarte-marmer.jpg");
+}
+.middle div:nth-child(n+25):nth-child(-n+32):nth-child(odd)
+{
+    background-image: url("assets/zwarte-marmer.jpg");
+}
+.middle div:nth-child(n+33):nth-child(-n+40):nth-child(even)
+{
+    background-image: url("assets/zwarte-marmer.jpg");
+}
+.middle div:nth-child(n+41):nth-child(-n+48):nth-child(odd)
+{
+    background-image: url("assets/zwarte-marmer.jpg");
+}
+.middle div:nth-child(n+49):nth-child(-n+56):nth-child(even)
+{
+    background-image: url("assets/zwarte-marmer.jpg");
+}
+.middle div:nth-child(n+56):nth-child(-n+64):nth-child(odd)
+{
+    background-image: url("assets/zwarte-marmer.jpg");
+}
+
+.middle div:nth-child(-n+8):nth-child(odd){
+    background-image: url("assets/witte-marmer.jpg");
+}
+
+.middle div:nth-child(n+8):nth-child(-n+16):nth-child(even)
+{
+    background-image: url("assets/witte-marmer.jpg");
+}
+.middle div:nth-child(n+17):nth-child(-n+24):nth-child(odd)
+{
+    background-image: url("assets/witte-marmer.jpg");
+}
+.middle div:nth-child(n+25):nth-child(-n+32):nth-child(even)
+{
+    background-image: url("assets/witte-marmer.jpg");
+}
+.middle div:nth-child(n+33):nth-child(-n+40):nth-child(odd)
+{
+    background-image: url("assets/witte-marmer.jpg");
+}
+.middle div:nth-child(n+41):nth-child(-n+48):nth-child(even)
+{
+    background-image: url("assets/witte-marmer.jpg");
+}
+.middle div:nth-child(n+49):nth-child(-n+56):nth-child(odd)
+{
+    background-image: url("assets/witte-marmer.jpg");
+}
+.middle div:nth-child(n+56):nth-child(-n+64):nth-child(even)
+{
+    background-image: url("assets/witte-marmer.jpg");
+}
+
+
+
+div{
+    border: 3px darkred solid;
+
+}
+
+img{
+    display: block;
+    padding:32%;
+
+}
+
